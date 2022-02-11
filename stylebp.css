@@ -1,0 +1,395 @@
+body,html {
+	height:100%;
+}
+
+.first {
+	background-image: url("images/homePage.jpg");
+	width: 100%;
+	margin: auto;
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:#0c334a;
+}
+h1 {
+	text-align: center;
+	
+}
+.display-3 {
+	font-size: large;
+	font-weight: bold;
+	color:#0c334a;
+}
+p {
+	text-align: center;
+}
+.btn-group-vertical{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    height:200px;
+	width: 200px;
+	margin-top: 100px;
+}
+.lead {
+	font-weight: bold;
+	font-size: large;
+}
+.take {
+	font-weight: bold;
+}
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    height:200px;
+	width: 200px;
+}
+.logocontact {
+	display: block;
+	height:75px;
+	width: 90px;
+}
+.btn-primary{
+background-color : red ;
+}
+.content-row-footer{
+	max-width: 100rem;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.card-bod{
+	padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 100%;
+    float: left;
+}
+.first-section{
+    width: 80%;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+	margin-left: -0.9375rem;
+    margin-right: -0.9375rem;
+}
+.content-left{
+	text-align: left;
+	width: 50%;
+	margin-bottom: 0.3rem;
+	float: left !important;
+	box-sizing: border-box;
+	padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+}
+.footer-title{
+	font-weight: bold;
+	font-size: x-large;
+	font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    display: block;
+	color: #fff;
+}
+.footer-para{
+	margin-bottom: 0.2rem;
+    padding-left: 1px;
+	line-height: 1.4rem;
+	text-align: left;
+	color: #fff;
+}
+.main-colors{
+	background-color: #003B5C;
+    border-color: #001a29;
+}
+.card-footer{
+	color: #fff;
+	}
+.navbar	{
+	background-image: url("images/homePage.jpg");
+	width: 100%;
+	margin: auto;
+	height: 30%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	}
+.collapse{
+	margin-top: -190px;
+   
+}
+.navbar-brand{
+	margin-top: -190px;
+}
+.{
+	margin-top: -190px;
+	
+}
+.Our-Services{
+	
+	font-weight: bold;
+	font-size: large;
+	color: #fff;
+}
+
+.list-group{
+	margin-right: 190px;
+	margin-top: 70px;
+	margin-left: 190px;
+	padding-bottom: 24px;
+	height: 100%; 
+	
+}
+.go-first{
+	background-image: url("images/building.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 25rem;
+}
+.go-second{
+	background-image: url("images/civil.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 25rem;
+}
+.no{
+	background-color: #a4d5f1;
+}
+.Second-list-group {
+	margin-left:190px;
+	margin-right:190px;
+	margin-top:10px;
+    padding-bottom: 24px;
+	height: 100%; 
+}
+.lower-footer{
+	margin-left: px;
+	color: #fff;
+	text-align:center;
+}
+
+
+.about-j{
+	padding-left:12rem;
+	padding-right:12rem;
+	background-color: 
+}
+.heading-A{
+    font-size: x-large;
+	font-weight: bold;
+}
+.lead-btn{
+	margin-top: 300px;
+    margin-bottom: -10rem;
+}
+.Services-jum{
+	padding-bottom: 12rem;
+	background-color: #fff;
+}
+.list-group-item-action{
+	color: #2f2525;
+}
+.Acc{
+	margin-right: 200px;
+	margin-top: 0px;
+	margin-left: 200px;
+	background-color:#fff;
+	padding-left: rem;
+	padding-right: rem;
+	color:#261111;
+}
+.BPlogo {
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+    height:100;
+	width: 100px;
+	/*border-left-width: 3px;
+    border-left-style: outset;
+    border-right-width: 3px;
+    border-right-style: outset;
+    border-bottom-width: 3px;
+    border-bottom-style: outset;
+    border-top-style: outset;
+    border-top-width: 3px;*/
+	border-color:#c9dcf4;
+}
+.BPlogoS{
+	height:40px;
+	width: 80px;
+	/*border-left-width: 1px;
+    border-left-style: inset;
+    border-right-width: 1px;
+    border-right-style: inset;
+    border-bottom-width: 1px;
+    border-bottom-style: inset;
+    border-top-style: inset;
+    border-top-width: 1px;
+	border-color:#c9dcf4;*/
+}
+.Dropdown{
+		display:none;
+	}
+@media screen and (min-width: 991px){
+    .Dropdownresponsive{
+	    display:none;
+    }
+	.topJumbo{
+		display:none;
+	}
+	.display-3 {
+	font-size: x-large;
+	}
+	.Our-Services{
+		font-size: x-large;
+	}
+	.btn-group-vertical{
+		width: 500px;
+		height: 130px;
+	}
+}
+@media screen and (max-width: 991px){
+	.lead{
+		font-size: medium;
+	}
+	.Dropdown {
+	    display:none;
+
+		width:100%;
+		
+	}
+    .navbar-brand{
+	    margin-top: 1px;
+	
+    }
+	.navbar-brand{
+		display:none;
+	}
+	.dpbtn {
+		color:#ffffff; /*#020024*/
+	}
+	.topJumbo{
+		background-color:#fff;
+		margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+	}
+	.navbar-toggler{
+		background-color:#000000ad;
+		padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+	}
+	.navmenu{
+		margin-bottom: 0px;
+	}
+	.heading-A {
+        font-size: large;
+	}
+	.footer-title{
+		font-size: large;
+	}
+	
+}
+@media screen and (max-width: 991px){
+    .Dropdown.responsive{
+		display:block;
+		width:70%;
+	    height:40%;
+	    
+	}
+	.Dropdown.responsive .btn{
+		width:70%;
+	}
+	.btn-group-vertical{
+		width: 70%;
+		
+	}
+	.content-left{
+		width: 50%;
+	}
+	.lower-footer{
+		text-align:center
+	}
+	.list-group{
+		
+		margin-left:70px;
+		margin-right:35px
+	}
+	.Second-list-group{
+		
+		margin-left:70px;
+		margin-right:35px
+	}
+	.about-j{
+		padding-left:0rem;
+		padding-right:0rem;
+		width: 100%;
+	}
+	.Our-Services{
+		
+		width:100%;
+		
+	}
+    .Acc{
+	    margin-right: 70px;
+	    margin-top: 0px;
+	    margin-left: 70px;
+	    
+		padding-left: 0rem;
+	    padding-right: 0rem;
+	}
+}
+@media screen and (max-width: 600px){
+	
+	
+	.btn-group-vertical{
+		width: 100%;
+	}
+	.content-left{
+		width: 100%;
+	}
+	.lower-footer{
+		text-align:center;
+	}
+	.list-group{
+		width:100%;
+		margin-left:0px;
+		margin-right:0px
+	}
+	.Second-list-group{
+		width:100%;
+		margin-left:0px;
+		margin-right:0px
+	}
+	.about-j{
+		padding-left:0rem;
+		padding-right:0rem;
+		width: 100%;
+	}
+	.Our-Services{
+		
+		width:100%;
+		
+	}
+    .Acc{
+	    margin-right: 0px;
+	    margin-top: 0px;
+	    margin-left: 0px;
+	    width:100%;
+		padding-left: 0rem;
+	    padding-right: 0rem;
+	}
+	
+}
+
+

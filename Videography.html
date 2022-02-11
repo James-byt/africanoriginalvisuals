@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Videography</title>
+	<link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.min.css">
+	<link rel="stylesheet" href="pkStyle.css">
+	 <script src="dropscript.js" defer></script>	
+	 <script  src="newScript.js" defer></script>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	 
+	 <script>
+	 var map={'fullHD':'1080p','720p':'720p','360p':'360p'};
+
+function changeQ(quality){
+     $('source','video#player').attr('src','images/1504PARTYPART1.mp4'+map[quality]);
+      $('span#pp').html(map[quality]);
+     console.log($('source','video#player').attr('src'))
+}
+
+
+
+	 var map={'fullHD':'1080p','720p':'720p','360p':'360p'};
+
+function changeQV2(quality){
+     $('source','video#Focus5').attr('src','images/Bankroll official music video.mp4'+map[quality]);
+      $('span#pp').html(map[quality]);
+     console.log($('source','video#Focus5').attr('src'))
+}
+
+
+
+/*
+
+	 var map={'fullHD':'1080p','720p':'720p','360p':'360p'};
+
+function changeQ(quality){
+     $('source','video#player').attr('src','images/1504PARTYPART1.mp4'+map[quality]);
+      $('span#pp').html(map[quality]);
+     console.log($('source','video#player').attr('src'))
+}
+
+
+
+
+
+	 var map={'fullHD':'1080p','720p':'720p','360p':'360p'};
+
+function changeQ(quality){
+     $('source','video#player').attr('src','images/1504PARTYPART1.mp4'+map[quality]);
+      $('span#pp').html(map[quality]);
+     console.log($('source','video#player').attr('src'))
+}
+
+
+*/
+
+
+
+	 </script>
+	 
+  </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="images/logo.png" alt="africanoriginalsviduals logo"   class="AOlogo"></a>
+  <button class="navbar-toggler" type="button" onclick="dropmain()" >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor03">
+    <ul class="navbar-nav mr-auto">
+      
+      <div class="dropdown">
+	     <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" >Explore</a>
+        <div class="dropdown-content " id="FilmDrop">
+		  
+          <a class="dropdown-item" href="#">Videography</a>
+		  
+          <a class="dropdown-item" href="photography.html">Photography</a>
+          <a class="dropdown-item" href="canvas.html">Canvas</a>
+		   <a class="dropdown-item" href="cameras.html">Camera Sales</a>
+		    <a class="dropdown-item" href="editing.html">Editing</a>
+          
+        </div>
+      </li>
+       </div>
+	  
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="Requestpage.html">Request</a>
+      </li>
+	   <li class="nav-item ">
+        <a class="nav-link" href="services.html">Services
+          
+        </a>
+      </li>
+	  <li 
+          class="nav-item">
+        <a class="nav-link" href="home.html">Home</a>
+      </li>
+	  
+    </ul>
+    
+  </div>
+  
+  
+  
+  <div class="navbar-collapse" id="navbarColor03">
+    <ul class="Maindrop navbar-nav mr-auto" id="myDropnav">
+      <ul class="navbar-nav mr-auto">
+      
+      <div class="dropdown">
+	     <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Explore</a>
+        <div class="dropdown-content " id="FilmDrop">
+		  
+          <a class="dropdown-item" href="#">Videography</a>
+		  
+          <a class="dropdown-item" href="photography.html">Photography</a>
+          <a class="dropdown-item" href="canvas.html">Canvas</a>
+		   <a class="dropdown-item" href="cameras.html">Camera Sales</a>
+		    <a class="dropdown-item" href="editing.html">Editing</a>
+          
+        </div>
+      </li>
+       </div>
+	  
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="Requestpage.html">Request</a>
+      </li>
+	   <li class="nav-item ">
+        <a class="nav-link" href="services.html">Services
+          
+        </a>
+      </li>
+	  <li 
+          class="nav-item">
+        <a class="nav-link" href="home.html">Home</a>
+      </li>
+	  
+    </ul>
+    </ul>
+  </div>
+  
+  
+  
+  
+</nav>
+	<div class="Ser film" class="jumbotron">
+        <h1  class="display-3">VIDEOGRAPHY</h1>
+         <p class="lead">
+         <a class="btn btn-primary btn-lg" href="Requestpage.html" role="button">Request service</a>
+         </p>
+        
+    </div>
+	<div class="Vidmain main jumbotron">
+	    
+        <h1 class="display-3" style="text-align:center;">Explore</h1>
+        <div class="video1 jumbotron" id="Vidid1">
+             
+					 
+            <video width="420" id="Vidid1" height="340" class="popuptext Vid1 pauseV1" id="Focus1" controls preload>
+            <source src="images/1504PARTYPART1.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+            </video>
+			<p class="dis2 lead">Discreption: PARTY PART 1</p>
+        </div>
+		 <div class="video2 jumbotron" id="Vidid2" 	 >
+            
+            <video width="420" height="340" class="Vid1 pauseV2" id="Focus2" controls preload>
+            <source src="images/MAKARAPA EVENTPROMO VID[FOR SALE ONLY].mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+            </video>
+			<p class="dis2 lead">Discreption:MAKARAPA EVENTPROMO VID</p>
+        </div>
+		 <div class="video3 jumbotron" id="Vidid3" 	 >
+            
+            <video width="420" height="340" class="Vid1 pauseV3" id="Focus3" controls preload>
+            <source src="images/OFFICIAL CINEPACK MUSIC VIDEO.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+            </video>
+			<p class="dis2 lead">Discreption: OFFICIAL CINEPACK MUSIC VIDEO</p>
+        </div>
+		 <div class="video4 jumbotron" id="Vidid4" 	 >
+            
+            <video width="420" height="340" class="Vid1 pauseV4" id="Focus4" controls preload>
+            <source src="images/MASKING WITH  SAUCE.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+            </video>
+			<p class="dis2 lead">Discreption: MASKING WITH  SAUCE</p>
+        </div>
+		
+		<div class="video5 jumbotron" id="Vidid5" 	 >
+		     <video width="420" height="340" class="Vid1 pauseV5" id="Focus5" controls preload>
+            <source src="images/Bankroll official music video.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+            </video>
+			<p class="dis2 lead">
+			<!--  <a href="#" class="quility_child" onclick="changeQV2('fullHD')">FullHD</a>
+              <a href="#" class="quility_child" onclick="changeQV2('720p')">720p</a>
+              <a href="#" class="quility_child" onclick="changeQV2('360p')">360p</a><br>-->
+			Discreption: Bankroll official music video</p>
+        </div>
+		
+		<div class="VidContaner jumbotron">
+		     <div class="VidDis" >
+            <img src="images/Screen3.png" alt="video"  width="180" height="140" >
+		    <p class="dis1" lead">Discreption: AfricanOriginalVisuals film, Produced by Phomolo and Micheal<p>
+			<p class="dis1" lead">Duration: 1:34<p>
+			
+			<a type="button" class="playbtn" onclick="myFunctionV3()"> Play Video </a>
+			</div>
+		    <div class="VidDis" >
+            <img src="images/Screen1.png" alt="video"  width="180" height="140" >
+		    <p class="dis1 lead">Discreption: AfricanOriginalVisuals film, Produced by Phomolo<p>
+			<p class="dis1 lead">Duration: 4:03<p>
+			<a type="button" class="playbtn" onclick="myFunctionV1() "  >Play Video</a>
+			</div>
+			 <div class="VidDis" >
+            <img src="images/Screen2.png" alt="video"  width="180" height="140" >
+		    <p class="dis1" lead">Discreption: AfricanOriginalVisuals film, Dukadukuka the 21st<p>
+			<p class="dis1" lead">Duration: 1:38<p>
+			<a type="button" class="playbtn" onclick="myFunctionV2()"> Play Video </a>
+			</div>
+			
+			 <div class="VidDis" >
+            <img src="images/Screen4.png" alt="video"  width="180" height="140" >
+		    <p class="dis1" lead">Discreption: AfricanOriginalVisuals film, Produced by Phomolo <p>
+			<p class="dis1" lead">Duration: 0:25<p>
+			<a  type="button" class="playbtn" onclick="myFunctionV4()"> Play Video </a>
+			</div>
+        
+		    <div class="VidDis" >
+            <img src="images/Screen5.png" alt="video"  width="180" height="140" >
+		    <p class="dis1" lead">Discreption: AfricanOriginalVisuals film, Produced by Phomolo and Njabulo<p>
+			<p class="dis1" lead">Duration: 2:23<p>
+			<a  type="button" class="playbtn" onclick="myFunctionV5()"> Play Video </a>
+			</div>
+			
+        </div>
+		
+  </div>
+        <div class="mobileVid jumbotron">
+	    
+        <h1 class="display-3" style="text-align:center;">Explore</h1> <!-- add an Mo class to each div for each video-->
+		
+		
+	
+		<div class="mobileVidplay jumbotron">
+		     <div class="VidDis" >
+            <img src="images/Screen3.png" alt="video"  width="180" height="140" >
+		    <p class="dis1" lead">Discreption: AfricanOriginalVisuals film, Produced by Phomolo and Micheal<p>
+			<p class="dis1" lead">Duration: 1:34<p>			
+			<a type="button" class="playbtn" onclick="toggle();"  >Play Video</a>
+			<div class="trailer">
+		
+			<video class="popVid1" src="images/OFFICIAL CINEPACK MUSIC VIDEO.mp4" controls="true">    
+            </video>
+			<img src="images/close.png" class="close" onclick="toggle();">
+			</div>
+			
+			</div>
+		    <div class="VidDis" >
+            <img src="images/Screen1.png" alt="video"  width="180" height="140" >
+		    <p class="dis1 lead">Discreption: AfricanOriginalVisuals film, Produced by Phomolo<p>
+			<p class="dis1 lead">Duration: 4:03<p>
+			<a type="button" class="playbtn" onclick="toggle2();"  >Play Video</a>
+			<div class="trailer2">
+		
+			<video class="popVid2" src="images/1504PARTYPART1.mp4" controls="true">    
+            </video>
+			<img src="images/close.png" class="close" onclick="toggle2();">
+			</div>
+			
+			</div>
+			 <div class="VidDis" >
+            <img src="images/Screen2.png" alt="video"  width="180" height="140" >
+		    <p class="dis1" lead">Discreption: AfricanOriginalVisuals film, Dukadukuka the 21st<p>
+			<p class="dis1" lead">Duration: 1:38<p>
+			<a type="button" class="playbtn" onclick="toggle3();"> Play Video </a>
+			
+			<div class="trailer3">
+		
+			<video class="popVid3" src="images/MAKARAPA EVENTPROMO VID[FOR SALE ONLY].mp4" controls="true">    
+            </video>
+			<img src="images/close.png" class="close" onclick="toggle3();">
+			</div>
+			
+			</div>
+			
+			 <div class="VidDis" >
+            <img src="images/Screen4.png" alt="video"  width="180" height="140" >
+		    <p class="dis1" lead">Discreption: AfricanOriginalVisuals film, Produced by Phomolo <p>
+			<p class="dis1" lead">Duration: 0:25<p>
+			<a  type="button" class="playbtn" onclick="toggle4();"> Play Video </a>
+			
+			<div class="trailer4">
+		
+			<video class="popVid4" src="images/MASKING WITH  SAUCE.mp4" controls="true">    
+            </video>
+			<img src="images/close.png" class="close" onclick="toggle4();">
+			</div>
+			
+			</div>
+        
+		    <div class="VidDis" >
+            <img src="images/Screen5.png" alt="video"  width="180" height="140" >
+		    <p class="dis1" lead">Discreption: AfricanOriginalVisuals film, Produced by Phomolo and Njabulo<p>
+			<p class="dis1" lead">Duration: 2:23<p>
+			<a  type="button" class="playbtn" onclick="toggle5();"> Play Video </a>
+			
+			<div class="trailer5">
+		
+			<video class="popVid5" src="images/Bankroll official music video.mp4" controls="true">    
+            </video>
+			<img src="images/close.png" class="close" onclick="toggle5();">
+			</div>
+			
+			</div>
+			
+        </div>
+		
+		
+		
+		</div>
+
+</body>
+</html>

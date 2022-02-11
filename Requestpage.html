@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     
+	 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Request Service</title>
+	<link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.min.css">
+	<link rel="stylesheet" href="pkStyle.css">
+	<script src="dropscript.js" defer></script>	
+	<script src="AOscript.js" defer></script>
+	
+    </head>
+<body>
+   <nav class="ReNavbar navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="images/logo.png" alt="africanoriginalsviduals logo"   class="AOlogo"></a>
+  <button class="navbar-toggler" type="button"  onclick="dropmain()" >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+<div class="collapse navbar-collapse" id="navbarColor03">
+    <ul class="navbar-nav mr-auto">
+      
+      <div class="dropdown">
+	     <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Explore</a>
+        <div class="dropdown-content " id="FilmDrop">
+		  
+          <a class="dropdown-item" href="Videography.html">Videography</a>
+		  
+          <a class="dropdown-item" href="photography.html">Photography</a>
+          <a class="dropdown-item" href="canvas.html">Canvas</a>
+		   <a class="dropdown-item" href="cameras.html">Camera Sales</a>
+		    <a class="dropdown-item" href="editing.html">Editing</a>
+          
+        </div>
+      </li>
+       </div>
+	  
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="Requestpage.html">Request</a>
+      </li>
+	   <li class="nav-item ">
+        <a class="nav-link" href="services.html">Services
+          
+        </a>
+      </li>
+	  <li 
+          class="nav-item">
+        <a class="nav-link" href="home.html">Home</a>
+      </li>
+	  
+    </ul>
+    
+  </div>
+  
+  
+  
+  <div class="navbar-collapse" id="navbarColor03">
+  
+  <ul class="Maindrop navbar-nav mr-auto" id="myDropnav">
+    <ul class="navbar-nav mr-auto">
+      
+      <div class="dropdown">
+	     <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Explore</a>
+        <div class="dropdown-content " id="FilmDrop">
+		  
+          <a class="dropdown-item" href="Videography.html">Videography</a>
+         <a class="dropdown-item" href="photography.html">Photography</a>
+          <a class="dropdown-item" href="canvas.html">Canvas</a>
+		   <a class="dropdown-item" href="cameras.html">Camera Sales</a>
+		    <a class="dropdown-item" href="editing.html">Editing</a>
+          
+        </div>
+      </li>
+       </div>
+	  
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="Requestpage.html">Request</a>
+      </li>
+	   <li class="nav-item ">
+        <a class="nav-link" href="services.html">Services
+          
+        </a>
+      </li>
+	  <li 
+          class="nav-item">
+        <a class="nav-link" href="home.html">Home</a>
+      </li>
+	  
+    </ul>
+    </ul>
+  </div>
+  
+  
+  
+</nav>
+    
+	     <form name="myForm" class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net" onsubmit="return validateForm()"
+          action="https://script.google.com/macros/s/AKfycbyqx8C_fHGa-8tsCC3gvQ1VxESs4bpc1F5dQJ3NoRloNoJ-3ciF/exec">
+		  <div class="ReForm Rejumb jumbotron"> 
+            <fieldset>
+                <legend class="legent">Request Service Here</legend>
+				
+     <div class="form-elements">
+	                <div class="form-group">
+					 <fieldset class="pure-group">
+  <label class="col-form-label" for="name">Full names</label>
+  <input type="text" class="form-control" placeholder="First name and last name" id="name" name="name">
+  </fieldset>
+     </div>	 
+	 
+   <div class="form-group row">
+   
+      <label  for="femail" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value="email@example.com">
+      </div>
+    </div>
+	
+    <div class="form-group">
+	<fieldset class="pure-group">
+      <label for="email">Email address</label>
+      <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" value=""  placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+	   <span class="email-invalid" style="display:none">
+          Must be a valid email address</span>
+	</fieldset>
+    </div>
+	 
+    
+	<div class="form-group">
+	<fieldset class="pure-group">
+  <label class="col-form-label" for="contact">Contact Number</label>
+  <input type="text" class="form-control" placeholder="+27" id="contact" name="contact">
+   </fieldset>
+     </div>
+	 
+
+    <div class="form-group">
+		 <fieldset class="pure-group">
+      <label for="services">Choose Service</label>
+      <select class="form-control" id="services" name="services">
+        <option>Videography</option>
+        <option>Photography</option>
+        <option>Canvas</option>
+        <option>Camera Sales</option>
+        <option>Editing</option>
+      </select>
+	  </fieldset>
+    </div>
+	
+     <fieldset>
+	 
+  
+	
+        <button  style="width: 80px;" type="submit" value="Submit" id="btnSend"class="Rebtn btn btn-primary">
+        Send</button>
+		 <a style="width: 80px;" class="Rebtn btn btn-primary" href="Requestpage.html" >Refresh</a>
+		<a style="width: 80px;" class="Rebtn btn btn-primary" href="services.html">Back</a>
+		
+  </fieldset>
+  
+  </div>
+    <!-- Customise the Thankyou Message People See when they submit the form: -->
+    <div class="thankyou_message" style="display:none;">
+    <h2 class="t_message"><em>Thanks</em> for contacting us!
+        We will get back to you soon!</h2>
+    </div>
+	
+</form>
+
+    <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" type="text/javascript"
+    src="form-submission-handler.js"></script>
+    <!-- END -->
+
+</body>
+</html>
